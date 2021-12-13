@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+body {
+    text-align: center;
+    background-color: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* cotainer reset */
+.container {
+    align-items: baseline;
+    align-items: center;
+    background: #FFFFFF;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+/* container */
+/* esta ea cor da figura */
+.container figcaption {
+    color: #8F8F8F;
+}
+/* figura */
+/* este eo titulo */
+.container .titulo h1 {
+    color: #1B1B1B;
+    font-size: 28px;
+    text-align: center;
+    line-height: 70px;
+}
+/* titulo */
+/* subtitulo */
+main .subtitulo h2 {
+    color: #1B1B1B;
+    font-size: 28px;
+    text-align: center;
+    line-height: 36px;
+}
+/* subtitulo */
+header .container .imagem figure img {
+    border-radius: 10px;
+}
+.Informações p {
+    text-align: left;
+    font-size: 16px;
+    color: #8F8F8F;
+    line-height: 60px;
+}
+main ul {
+    list-style-position: inside;
+    text-align: left;
+}
+main ol {
+    list-style-position: inside;
+    text-align: left;
+}
+
+main ul li {
+    color: #39393A;
+    font-size: 16px;
+    line-height: 36px;
+}
+main ol li {
+    color: #39393A;
+    font-size: 16px;
+    line-height: 36px;
+}
+header {
+    background-color: #EAEAEA;
+}
+header section .container .imagem figure figcaption {
+    text-align:right;
+}
+footer {
+    line-height: 56px;
+    border-radius: 10px;
+}
+footer .fim figcaption a ion-icon {
+    color: red;
+}
+footer .fim figcaption a {
+    text-decoration: none;
+    color: olive;
+}
+header .container {
+    border-radius: 10px 0px;
+}
+/*------------------------------------------------------------------------------------------------*/
+/* mobile */ 
+@media(max-width: 376px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+    body {
+        text-align: center;
+        background-color: #EAEAEA;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    /* cotainer reset */
+    .container {
+        align-items: center;
+        background: #FFFFFF;
+    }
+    /* container */
+    /* esta ea cor da figura */
+    .container figcaption {
+        color: #8F8F8F;
+    }
+    /* figura */
+    /* este eo titulo */
+    .container .titulo h1 {
+        color: #1B1B1B;
+        font-size: 28px;
+        text-align: center;
+        line-height: 70px;
+    }
+    /* titulo */
+    /* subtitulo */
+    main .subtitulo h2 {
+        color: #1B1B1B;
+        font-size: 28px;
+        text-align: center;
+        line-height: 36px;
+    }
+    /* subtitulo */
+    header .container .imagem figure img {
+        max-width: 100%;
+        width: 1200px;
+        height: 300px;
+        border-radius: 10px;
+     }
+     header {
+        background-color: #EAEAEA;
+    }
+    header section .container .imagem figure figcaption {
+        text-align:right;
+        border-bottom: solid 2px #1B1B1B;
+    }
+    /* MAIN */
+    .Informações p {
+        text-align: left;
+        font-size: 16px;
+        color: #8F8F8F;
+        line-height: 30px;
+    }
+    main ul {
+        list-style-position: inside;
+        text-align: left;
+    }
+    main ol {
+        list-style-position: inside;
+        text-align: left;
+    }
+    
+    main ul li {
+        color: #39393A;
+        font-size: 16px;
+        line-height: 36px;
+    }
+    main ol li {
+        color: #39393A;
+        font-size: 16px;
+        line-height: 36px;
+    }
+   /* MAIN */
+    footer {
+        line-height: 56px;
+        border-radius: 10px;
+    }
+    footer .fim figcaption a ion-icon {
+        color: red;
+    }
+    footer .fim figcaption a {
+        text-decoration: none;
+        color: olive;
+    }
+header .container {
+    border-top: solid black 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0px;
+}
+}
+/* MABILE */
